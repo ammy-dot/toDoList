@@ -90,3 +90,32 @@ body {
         padding-right: 0.3rem;
     }
 }
+
+@media (max-width: 400px) {
+    input {
+        width: 100%; /* Set input width to 100% to fill the available space */
+        font-size: 12px;
+        margin-right: 0.8rem;
+    }
+    h1{
+        font-size: 20px;
+    }
+    
+    .main_todo_div {
+        width: 100%; /* Set div width to 100% to make it full-width */
+        padding: 10px;
+    }
+    
+    .inner button {
+        margin-top: 10px;
+    }
+    
+    li {
+        padding-right: 0.3rem;
+    }
+    form{
+        width: 90%;
+        padding: 10px;
+
+    }
+}
